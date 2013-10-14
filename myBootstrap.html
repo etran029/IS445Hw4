@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
+  <meta charset="utf-8" />
   <title>My Homework 4</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="Content/bootstrap.min.css" rel="stylesheet" />
   <link href="css/myBootstrap.css" rel="stylesheet" />
 </head>
 <body>
+  <div class="container">
   <header>&lt;Header&gt;</header>
   <nav>
-    <ul>
+    <ul class="nav nav-pills pull-center">
       <li><a href="index.html">Home</a></li>
       <li><a href="static.html">Static Layout</a></li>
 	  <li><a href="absolute.html">Absolute Layout</a></li>
@@ -18,11 +20,12 @@
       <li><a href="bootstrap.html">Bootstrap Layout (Extra Credit)</a></li>
     </ul>
   </nav>
-  <article> &lt;My Article&gt;
-    <section>&lt;Section One&gt;</section>
-    <section>&lt;Section Two&gt;</section>
+  <article class="col-sm-8"> &lt;My Article&gt;
+    <section class="col-sm-8">&lt;Section One&gt;</section>
+    <section class="col-sm-8">&lt;Section Two&gt;</section>
   </article>
-  <aside>&lt;Aside&gt;</aside>
+  <aside class="col-sm-4">&lt;Aside&gt;</aside>
   <footer>&lt;Footer&gt;</footer>
+  </div>
 </body>
 </html>

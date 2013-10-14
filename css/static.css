@@ -10,43 +10,48 @@ header {
     color: white;
     background-color: blue;
     width: auto;
-    height: 50px;
+    height: 40px;
+    margin: 0;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 nav {
     color: white;
     background-color: green;
     width: auto;
-    height: 50px;
+    height: 30px;
     text-align: center;
+    margin: 0;
 }
 
 li {
-    display: inline;
-    margin: 5px;
+    display: inline-block;
+    margin: 0;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 
 article {
     color: white;
     width: 67%;
-    height: 50px;
+    height: 220px;
     background-color: pink;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 section {
     color: white;
-    width: 67;
-    height: 100px;
+    width: 100%;
+    height: 90px;
     background-color: brown;
     text-align: center;
-    
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 aside {
@@ -61,6 +66,6 @@ footer {
     color: white;
     background-color: green;
     width: auto;
-    height: 50px;
+    height: 30px;
     text-align: center;
 }

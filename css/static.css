@@ -17,17 +17,16 @@ header {
 }
 
 nav {
-    color: white;
     background-color: green;
-    width: auto;
+    width: 680px;
+    color: white;
+    margin:0;
     height: 30px;
-    text-align: center;
-    margin: 0;
 }
 
 li {
-    display: inline-block;
-    margin: 0;
+    display: inline;
+    margin: 5px;
 }
 
 a {

@@ -1,8 +1,8 @@
 ﻿body {
     width:680px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
+    position: absolute;
 }
 
 header {
@@ -21,24 +21,39 @@ nav {
     height: 30px;
 }
 
-li {
-    display: inline;
-    margin: 5px;
+nav ul {
+    margin: 0;
 }
 
-a {
-    text-decoration: underline;
+nav ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+a:link {
+    color:white;
+}
+
+a:visited {
+    color:white;
+}
+
+a:hover {
+    color:white;
+}
+
+a:active {
     color: white;
 }
 
 article {
-    color: white;  
-    background-color: pink; 
-    height: 230px;  
-    padding-bottom: 20px; 
-    width: 430px;   
-    position: relative; 
-    left: 0px;
+    color: white;
+    background-color: pink;
+    height: 230px;
+    padding-bottom: 20px;
+    width: 430px;
+    position: absolute;
+    top: 80px;
 }
 
 section {
@@ -54,9 +69,9 @@ aside {
     background-color: cyan;
     height:250px;
     width: 250px;
-    position: relative;
+    position: absolute;
+    top: 80px;
     left: 430px;
-    top:-250px;
 }
 
 footer {
@@ -64,7 +79,6 @@ footer {
     height: 30px;
     width: 680px;
     color: white;
-    position: relative;
-    left: 0px;
-    top: -250px;
+    position: absolute;
+    top: 330px;
 }
